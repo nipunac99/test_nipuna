@@ -3,8 +3,8 @@
         <HeroSectionVue />
         <AboutUsVue />
         <LatestNews />
-        <TestimonialsVue/>
-        <ContactUsVue/>
+        <TestimonialsVue />
+        <ContactUsVue />
 
 
 

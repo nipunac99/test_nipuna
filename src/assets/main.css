@@ -11,6 +11,7 @@ header.sticky {
 .dropdown-toggle::after {
   background: url("/Icons/lang-icon.svg");
 }
+
 /* NavBar End */
 
 /* Hero Section Start */
@@ -34,8 +35,9 @@ header.sticky {
   font-size: 3rem;
 }
 .content .info .desc {
-  font-size: 1.5rem;
+  font-size: 20px;
   max-width: 55%;
+  font-weight:300;
 }
 /* Hero Section End */
 
@@ -229,4 +231,12 @@ header.sticky {
     display: none;
   }
 }
+
+@media (max-width: 575.98px) {
+  .hamburger-menu-icon {
+    display: none;
+  }
+}
+
+
 /*  */

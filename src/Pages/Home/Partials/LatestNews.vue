@@ -3,7 +3,6 @@
         <Maintopic text="Latest News" />
         <div class="container swiper">
             <div class="card-wrapper">
-                <!-- Card slides container -->
                 <ul class="card-list swiper-wrapper">
                     <li class="card-item swiper-slide">
                         <a href="#" class="card-link">
@@ -82,11 +81,9 @@
                         </a>
                     </li>
                 </ul>
-                <!-- Pagination -->
+
                 <div class="swiper-pagination"></div>
-                <!-- Navigation Buttons -->
-                <!-- <div class="swiper-slide-button swiper-button-prev"></div>
-                <div class="swiper-slide-button swiper-button-next"></div> -->
+
             </div>
         </div>
     </div>
@@ -106,18 +103,13 @@ export default {
         new Swiper('.card-wrapper', {
             loop: true,
             spaceBetween: 30,
-            // Pagination bullets
+
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
                 dynamicBullets: true
             },
-            // Navigation arrows
-            // navigation: {
-            //     nextEl: '.swiper-button-next',
-            //     prevEl: '.swiper-button-prev',
-            // },
-            // Responsive breakpoints
+
             breakpoints: {
                 0: {
                     slidesPerView: 1

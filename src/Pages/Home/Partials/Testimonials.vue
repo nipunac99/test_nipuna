@@ -13,7 +13,7 @@
                             eligendi ipsum adipisci, fugit, architecto amet asperiores
                             doloremque deserunt eum nemo.
                         </p>
-                        <!-- <i class="bx bxs-quote-alt-left quote-icon"></i> -->
+
                         <img src="/Icons/quote-left-Icon.png" alt="" class="quote-icon-bottom">
                         <div class="details">
                             <span class="name">- Lorem ipsum dolor </span>
@@ -29,7 +29,7 @@
                             eligendi ipsum adipisci, fugit, architecto amet asperiores
                             doloremque deserunt eum nemo.
                         </p>
-                        <!-- <i class="bx bxs-quote-alt-left quote-icon"></i> -->
+
                         <img src="/Icons/quote-left-Icon.png" alt="" class="quote-icon-bottom">
                         <div class="details">
                             <span class="name">- Lorem ipsum dolor </span>
@@ -45,15 +45,15 @@
                             eligendi ipsum adipisci, fugit, architecto amet asperiores
                             doloremque deserunt eum nemo.
                         </p>
-                        <!-- <i class="bx bxs-quote-alt-left quote-icon"></i> -->
+
                         <img src="/Icons/quote-left-Icon.png" alt="" class="quote-icon-bottom">
                         <div class="details">
                             <span class="name">- Lorem ipsum dolor </span>
                             <span class="job">Labore et dolore</span>
                         </div>
                     </div>
-                   
-                    
+
+
                 </div>
                 <div class="swiper-button-next nav-btn"></div>
                 <div class="swiper-button-prev nav-btn"></div>
@@ -74,7 +74,7 @@ export default {
 
     mounted() {
         var swiper = new Swiper(".mySwiper", {
-         
+
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
